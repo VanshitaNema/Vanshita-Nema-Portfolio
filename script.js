@@ -194,4 +194,10 @@ gsap.fromTo(
 
 })();
 
+document.getElementById("contactMailBtn").addEventListener("click", function (e) {
+    e.preventDefault();
+    const email = "vanshitanema2002@gmail.com";
+    window.open(`https://mail.google.com/mail/?view=cm&to=${email}`, "_blank");
+});
+
 
